@@ -1,0 +1,6 @@
+path: \\wsl.localhost\Ubuntu\home\mat2m10\code\mat2m10\blender\pangolin\dataset
+train: images
+val: images
+
+nc: 1
+names: ['pangolin']
