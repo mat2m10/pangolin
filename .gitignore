@@ -1,7 +1,7 @@
 # Blender backups
 *.blend1
 *.blend2
-
+*.log
 # Blender crash logs
 *.crash.txt
 
