@@ -1,6 +1,10 @@
-path: \\wsl.localhost\Ubuntu\home\mat2m10\code\mat2m10\blender\pangolin\dataset
-train: images
-val: images
+# YOLO dataset config.
+# No `path:` key on purpose: Ultralytics then resolves everything relative to
+# the folder containing this file, so it works from any clone or machine.
+# Entries in train.txt / val.txt start with ./ and are relative to this folder.
+# Split: every 5th image (004, 009, 014, 019) is held out for validation.
+train: train.txt
+val: val.txt
 
 nc: 1
 names: ['pangolin']
